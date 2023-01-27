@@ -5,3 +5,6 @@ execute as @e[type=zombie,tag=!not_op,sort=random] at @s run function zombies_an
 
 # Spider Op Spawning
 execute as @e[type=spider,tag=!not_op,sort=random] at @s run function zombies_and_spiders:spawn/spider_op
+
+# Skeleton Op Spawning
+execute as @e[type=skeleton,tag=!not_op,sort=random] at @s run function zombies_and_spiders:spawn/skeleton_op
