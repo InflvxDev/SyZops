@@ -18,6 +18,9 @@ scoreboard players add count spawnCreeperOp 0
 scoreboard objectives add spawnGhastOp dummy
 scoreboard players add count spawnGhastOp 0
 
+#Triger Restart Spawns
+scoreboard objectives add restartSpawns trigger
+
 tellraw @a {"text": "Zombies and Spiders Ops By Inflvx" , "color": "aqua"}
 
 

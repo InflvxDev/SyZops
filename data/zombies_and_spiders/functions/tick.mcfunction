@@ -14,3 +14,7 @@ execute as @e[type=creeper,tag=!not_op,sort=random] at @s run function zombies_a
 
 # Ghast Op Spawning
 execute as @e[type=ghast,tag=!not_op,sort=random] at @s run function zombies_and_spiders:spawn/ghast_op
+
+# Trigger Spawn Reset
+scoreboard players enable @a restartSpawns
+execute as @a[scores={restartSpawns=1..}] at @s run function zombies_and_spiders:reset/resetspawns
