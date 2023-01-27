@@ -2,7 +2,8 @@ execute if score count spawnZombieOp matches 0 run summon zombie ~ ~ ~ {Tags:["f
 execute if score count spawnZombieOp matches 1 run summon zombie ~ ~ ~ {Tags:["strongestZombie","not_op"],CustomName:'{"text":"Strongest Zombie Monster","color":"dark_red"}',ArmorItems:[{},{},{id:golden_chestplate,Count:1}],ArmorDropChances:[0f,0f,0f]}
 execute if score count spawnZombieOp matches 2 run summon zombie ~ ~ ~ {Tags:["resistantZombie","not_op"],CustomName:'{"text":"Resistant Zombie Monster","color":"dark_gray"}',ArmorItems:[{},{},{id:iron_chestplate,Count:1}],ArmorDropChances:[0f,0f,0f]}
 execute if score count spawnZombieOp matches 3 run summon zombie ~ ~ ~ {Tags:["finalZombie","not_op"],CustomName:'{"text":"Final Zombie Monster","color":"dark_purple"}',ArmorItems:[{},{},{id:diamond_chestplate,Count:1}],ArmorDropChances:[0f,0f,0f]}
-execute if score count spawnZombieOp matches 4 run summon zombie ~ ~ ~ {Tags:["normalZombie","not_op"]}
+execute if score count spawnZombieOp matches 4 run summon zombie ~ ~ ~ {Tags:["ironZombie","not_op"],HandItems:[{id:iron_sword,Count:1}],ArmorItems:[{id:iron_boots,Count:1},{id:iron_leggings,Count:1},{id:iron_chestplate,Count:1},{id:iron_helmet,Count:1}],HandDropChances:[0f],ArmorDropChances:[0f,0f,0f,0f]}
+execute if score count spawnZombieOp matches 5 run summon zombie ~ ~ ~ {Tags:["normalZombie","not_op"]}
 
 tp @s ~ ~-256 ~
 
@@ -31,5 +32,8 @@ execute if score count spawnZombieOp matches 4 run effect give @e[tag=finalZombi
 execute if score count spawnZombieOp matches 4 run effect give @e[tag=finalZombie] minecraft:glowing 36000 1
 execute if score count spawnZombieOp matches 4 run effect give @e[tag=finalZombie] minecraft:speed 36000 2
 
+# Iron Zombie Monster
+execute if score count spawnZombieOp matches 5 run effect give @e[tag=ironZombie] minecraft:strength 36000 1
+execute if score count spawnZombieOp matches 5 run effect give @e[tag=ironZombie] minecraft:resistance 36000 1
 
-execute if score count spawnZombieOp matches 5 run scoreboard players set count spawnZombieOp 0
+execute if score count spawnZombieOp matches 6 run scoreboard players set count spawnZombieOp 0
