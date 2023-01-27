@@ -1,4 +1,4 @@
-execute if score count spawnGhastOp matches 0 run summon ghast ~ ~ ~ {Tags:["ghastdemons","not_op"], ExplosionPower:6}
+execute if score count spawnGhastOp matches 0 run summon ghast ~ ~ ~ {Tags:["ghastdemons","not_op"], ExplosionPower:5}
 
 tp @s ~ ~-256 ~
 
