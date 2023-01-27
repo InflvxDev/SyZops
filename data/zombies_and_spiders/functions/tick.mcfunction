@@ -8,3 +8,7 @@ execute as @e[type=spider,tag=!not_op,sort=random] at @s run function zombies_an
 
 # Skeleton Op Spawning
 execute as @e[type=skeleton,tag=!not_op,sort=random] at @s run function zombies_and_spiders:spawn/skeleton_op
+
+# Trigger Spawn Reset
+scoreboard players enable @a restartSpawns
+execute as @a[scores={restartSpawns=1..}] at @s run function zombies_and_spiders:reset/resetspawns
