@@ -27,6 +27,9 @@ execute as @e[type=stray,tag=!not_op,sort=random] at @s run function zombies_and
 # Wither Skeleton Op Spawning
 execute as @e[type=wither_skeleton,tag=!not_op,sort=random] at @s run function zombies_and_spiders:spawn/witherskeleton_op
 
+# Zombified Piglin Op Spawning
+execute as @e[type=zombified_piglin,tag=!not_op,sort=random] at @s run function zombies_and_spiders:spawn/zombifiedpiglin_op
+
 # Trigger Spawn Reset
 scoreboard players enable @a restartSpawns
 execute as @a[scores={restartSpawns=1..}] at @s run function zombies_and_spiders:reset/resetspawns

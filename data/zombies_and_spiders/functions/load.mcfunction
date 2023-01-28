@@ -34,6 +34,10 @@ scoreboard players add count spawnStrayOp 0
 scoreboard objectives add spawnWitherSkeletonOp dummy
 scoreboard players add count spawnWitherSkeletonOp 0
 
+# Scoreboard for Zombie Pinglin Op
+scoreboard objectives add spawnZombiePinglinOp dummy
+scoreboard players add count spawnZombiePinglinOp 0
+
 #Triger Restart Spawns
 scoreboard objectives add restartSpawns trigger
 

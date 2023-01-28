@@ -6,7 +6,7 @@ scoreboard players add count spawnHuskOp 1
 
 #Diamond  Husk Monster
 execute if score count spawnHuskOp matches 1 run effect give @e[tag=diamondhusk] minecraft:strength 36000 3
-execute if score count spawnHuskOp matches 1 run effect give @e[tag=diamondhusk] minecraft:speed 36000 3
+execute if score count spawnHuskOp matches 1 run effect give @e[tag=diamondhusk] minecraft:speed 36000 1
 execute if score count spawnHuskOp matches 1 run effect give @e[tag=diamondhusk] minecraft:resistance 36000 1
 
 execute if score count spawnHuskOp matches 1 run scoreboard players set count spawnHuskOp 0
