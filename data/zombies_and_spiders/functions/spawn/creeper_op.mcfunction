@@ -1,4 +1,4 @@
-execute if score count spawnCreeperOp matches 0 run summon creeper ~ ~ ~ {powered:1,Tags:["fuse","not_op"],Fuse:2, ExplosionRadius:2}
+execute if score count spawnCreeperOp matches 0 run summon creeper ~ ~ ~ {powered:1,Tags:["fuse","not_op"],CustomName:'{"text":"Creeper EletricFuse","color":"dark_green"}',Fuse:2, ExplosionRadius:2}
 
 tp @s ~ ~-256 ~
 
