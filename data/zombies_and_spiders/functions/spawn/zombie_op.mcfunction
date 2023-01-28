@@ -32,8 +32,9 @@ execute if score count spawnZombieOp matches 4 run effect give @e[tag=finalZombi
 execute if score count spawnZombieOp matches 4 run effect give @e[tag=finalZombie] minecraft:glowing 36000 1
 execute if score count spawnZombieOp matches 4 run effect give @e[tag=finalZombie] minecraft:speed 36000 5
 
-# Iron Zombie Monster
+# Diamond  Zombie Monster
 execute if score count spawnZombieOp matches 5 run effect give @e[tag=diamondZombie] minecraft:strength 36000 3
+execute if score count spawnZombieOp matches 5 run effect give @e[tag=diamondZombie] minecraft:speed 36000 3
 execute if score count spawnZombieOp matches 5 run effect give @e[tag=diamondZombie] minecraft:resistance 36000 1
 
 execute if score count spawnZombieOp matches 5 run scoreboard players set count spawnZombieOp 0
