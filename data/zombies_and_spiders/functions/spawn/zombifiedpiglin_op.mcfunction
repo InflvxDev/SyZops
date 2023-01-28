@@ -7,6 +7,5 @@ scoreboard players add count spawnZombiePinglinOp 1
 #Diamond Zombie Pinglin Monster
 execute if score count spawnZombiePinglinOp matches 1 run effect give @e[type=zombified_piglin] minecraft:strength 36000 3
 execute if score count spawnZombiePinglinOp matches 1 run effect give @e[type=zombified_piglin] minecraft:speed 36000 1
-execute if score count spawnZombiePinglinOp matches 1 run effect give @e[type=zombified_piglin] minecraft:resistance 36000 1
 
 execute if score count spawnZombiePinglinOp matches 1 run scoreboard players set count spawnZombiePinglinOp 0

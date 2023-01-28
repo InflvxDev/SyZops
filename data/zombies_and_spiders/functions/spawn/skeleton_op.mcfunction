@@ -6,6 +6,5 @@ scoreboard players add count spawnSkeletonOp 1
 
 #Diamond  Skeletons Monster
 execute if score count spawnSkeletonOp matches 1 run effect give @e[tag=diamondskely] minecraft:speed 36000 3
-execute if score count spawnSkeletonOp matches 1 run effect give @e[tag=diamondskely] minecraft:resistance 36000 3
 
 execute if score count spawnSkeletonOp matches 1 run scoreboard players set count spawnSkeletonOp 0

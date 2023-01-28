@@ -4,8 +4,5 @@ tp @s ~ ~-256 ~
 
 scoreboard players add count spawnDrownedOp 1
 
-#Diamond  Drowned Monster
-execute if score count spawnDrownedOp matches 1 run effect give @e[tag=diamonddrowned] minecraft:speed 36000 4
-execute if score count spawnDrownedOp matches 1 run effect give @e[tag=diamonddrowned] minecraft:resistance 36000 1
 
 execute if score count spawnDrownedOp matches 1 run scoreboard players set count spawnDrownedOp 0

@@ -6,6 +6,5 @@ scoreboard players add count spawnStrayOp 1
 
 #Diamond  Stray Monster
 execute if score count spawnStrayOp matches 1 run effect give @e[tag=diamondstray] minecraft:speed 36000 3
-execute if score count spawnStrayOp matches 1 run effect give @e[tag=diamondstray] minecraft:resistance 36000 1
 
 execute if score count spawnStrayOp matches 1 run scoreboard players set count spawnStrayOp 0
