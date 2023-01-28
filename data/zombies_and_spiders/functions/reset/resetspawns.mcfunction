@@ -1,6 +1,10 @@
 scoreboard players reset count spawnZombieOp
 scoreboard players reset count spawnSpiderOp
 scoreboard players reset count spawnSkeletonOp
+scoreboard players reset count spawnHuskOp
+scoreboard players reset count spawnDrownedOp
+scoreboard players reset count spawnStrayOp
+scoreboard players reset count spawnWitherSkeletonOp
 
 
 
