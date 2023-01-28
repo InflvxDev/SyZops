@@ -18,6 +18,22 @@ scoreboard players add count spawnCreeperOp 0
 scoreboard objectives add spawnGhastOp dummy
 scoreboard players add count spawnGhastOp 0
 
+# Scoreboard for Husk Op
+scoreboard objectives add spawnHuskOp dummy
+scoreboard players add count spawnHuskOp 0
+
+# Scoreboard for Drowned Op
+scoreboard objectives add spawnDrownedOp dummy
+scoreboard players add count spawnDrownedOp 0
+
+# Scoreboard for Stray Op
+scoreboard objectives add spawnStrayOp dummy
+scoreboard players add count spawnStrayOp 0
+
+# Scoreboard for Wither Skeleton Op
+scoreboard objectives add spawnWitherSkeletonOp dummy
+scoreboard players add count spawnWitherSkeletonOp 0
+
 #Triger Restart Spawns
 scoreboard objectives add restartSpawns trigger
 
