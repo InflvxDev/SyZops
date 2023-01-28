@@ -38,6 +38,14 @@ scoreboard players add count spawnWitherSkeletonOp 0
 scoreboard objectives add spawnZombiePinglinOp dummy
 scoreboard players add count spawnZombiePinglinOp 0
 
+# Scoreboard for Hoglin Op
+scoreboard objectives add spawnHoglinOp dummy
+scoreboard players add count spawnHoglinOp 0
+
+# Scoreboard for Piglin op
+scoreboard objectives add spawnPiglinOp dummy
+scoreboard players add count spawnPiglinOp 0
+
 #Triger Restart Spawns
 scoreboard objectives add restartSpawns trigger
 
