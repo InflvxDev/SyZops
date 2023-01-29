@@ -1,5 +1,6 @@
 scoreboard players reset count spawnZombieOp
 scoreboard players reset count spawnSpiderOp
+scoreboard players reset count spawnMobsInMooshroomIsland
 
 
 tellraw @s {"text": "Los spawns de los Mobs han sido reiniciados" , "color": "green"}

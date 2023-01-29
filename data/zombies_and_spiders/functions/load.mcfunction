@@ -6,6 +6,10 @@ scoreboard players add count spawnZombieOp 0
 scoreboard objectives add spawnSpiderOp dummy
 scoreboard players add count spawnSpiderOp 0
 
+# Scoreboard for Spawn Mobs In Mooshroom Island
+scoreboard objectives add spawnMobsInMooshroomIsland dummy
+scoreboard players add count spawnMobsInMooshroomIsland 0
+
 #Triger Restart Spawns
 scoreboard objectives add restartSpawns trigger
 
