@@ -48,6 +48,9 @@ execute as @e[type=glow_squid,tag=!not_op,sort=random] at @s run function zombie
 # Spawn in Mooshrooms Island
 execute as @e[type=mooshroom,tag=!not_op,sort=random] at @s run function zombies_and_spiders:spawn/others/mooshroom_island
 
+# Dont Villager Spawn
+execute as @e[type=villager,tag=!not_op,sort=random] at @s run kill @e[type=minecraft:villager]
+
 # Trigger Spawn Reset
 scoreboard players enable @a restartSpawns
 execute as @a[scores={restartSpawns=1..}] at @s run function zombies_and_spiders:reset/resetspawns
