@@ -39,6 +39,12 @@ execute as @e[type=piglin,tag=!not_op,sort=random] at @s run function zombies_an
 # Enderman Op Spawning
 execute as @e[type=enderman,tag=!not_op,sort=random] at @s run function zombies_and_spiders:spawn/void/enderman_op
 
+# Guardian Op Spawning
+execute as @e[type=squid,tag=!not_op,sort=random] at @s run function zombies_and_spiders:spawn/guardians/guardian_op
+
+# Elder Guardian Op Spawning
+execute as @e[type=glow_squid,tag=!not_op,sort=random] at @s run function zombies_and_spiders:spawn/guardians/elderguardian_op
+
 # Spawn in Mooshrooms Island
 execute as @e[type=mooshroom,tag=!not_op,sort=random] at @s run function zombies_and_spiders:spawn/others/mooshroom_island
 
