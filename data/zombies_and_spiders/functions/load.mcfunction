@@ -26,6 +26,10 @@ scoreboard players add count spawnStrayOp 0
 scoreboard objectives add spawnWitherSkeletonOp dummy
 scoreboard players add count spawnWitherSkeletonOp 0
 
+# Scoreboard for Spawn Mobs In Mooshroom Island
+scoreboard objectives add spawnMobsInMooshroomIsland dummy
+scoreboard players add count spawnMobsInMooshroomIsland 0
+
 #Triger Restart Spawns
 scoreboard objectives add restartSpawns trigger
 

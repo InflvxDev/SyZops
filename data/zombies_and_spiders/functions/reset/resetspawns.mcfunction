@@ -5,6 +5,7 @@ scoreboard players reset count spawnHuskOp
 scoreboard players reset count spawnDrownedOp
 scoreboard players reset count spawnStrayOp
 scoreboard players reset count spawnWitherSkeletonOp
+scoreboard players reset count spawnMobsInMooshroomIsland
 
 
 

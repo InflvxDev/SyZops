@@ -21,6 +21,9 @@ execute as @e[type=stray,tag=!not_op,sort=random] at @s run function zombies_and
 # Wither Skeleton Op Spawning
 execute as @e[type=wither_skeleton,tag=!not_op,sort=random] at @s run function zombies_and_spiders:spawn/witherskeleton_op
 
+# Spawn in Mooshrooms Island
+execute as @e[type=mooshroom,tag=!not_op,sort=random] at @s run function zombies_and_spiders:spawn/mooshroom_island
+
 # Trigger Spawn Reset
 scoreboard players enable @a restartSpawns
 execute as @a[scores={restartSpawns=1..}] at @s run function zombies_and_spiders:reset/resetspawns
