@@ -1,4 +1,4 @@
-execute if score count spawnDrownedOp matches 0 run summon drowned ~ ~ ~ {Tags:["diamonddrowned","not_op"],HandItems:[{id:trident,Count:1}],ArmorItems:[{id:diamond_boots,tag:{Enchantments:[{id:depth_strider,lvl:1}]},Count:1},{id:diamond_leggings,Count:1},{id:diamond_chestplate,Count:1},{id:diamond_helmet,Count:1}],HandDropChances:[0f],ArmorDropChances:[0f,0f,0f,0f]}
+execute if score count spawnDrownedOp matches 0 run summon drowned ~ ~ ~ {Tags:["netherdrowned","not_op"],HandItems:[{id:trident,Count:1}],ArmorItems:[{id:netherite_boots,tag:{Enchantments:[{id:depth_strider,lvl:1}]},Count:1},{id:netherite_leggings,Count:1},{id:netherite_chestplate,Count:1},{id:netherite_helmet,Count:1}],HandDropChances:[0f],ArmorDropChances:[0f,0f,0f,0f]}
 
 tp @s ~ ~-256 ~
 
