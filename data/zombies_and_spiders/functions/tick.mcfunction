@@ -36,6 +36,9 @@ execute as @e[type=hoglin,tag=!not_op,sort=random] at @s run function zombies_an
 # Piglin Op Spawning
 execute as @e[type=piglin,tag=!not_op,sort=random] at @s run function zombies_and_spiders:spawn/piglin_op
 
+# Spawn in Mooshrooms Island
+execute as @e[type=mooshroom,tag=!not_op,sort=random] at @s run function zombies_and_spiders:spawn/mooshroom_island
+
 # Trigger Spawn Reset
 scoreboard players enable @a restartSpawns
 execute as @a[scores={restartSpawns=1..}] at @s run function zombies_and_spiders:reset/resetspawns

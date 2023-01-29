@@ -8,6 +8,7 @@ scoreboard players reset count spawnDrownedOp
 scoreboard players reset count spawnStrayOp
 scoreboard players reset count spawnWitherSkeletonOp
 scoreboard players reset count spawnZombiePinglinOp
+scoreboard players reset count spawnMobsInMooshroomIsland
 
 
 tellraw @s {"text": "Los spawns de los Mobs han sido reiniciados" , "color": "green"}

@@ -46,6 +46,10 @@ scoreboard players add count spawnHoglinOp 0
 scoreboard objectives add spawnPiglinOp dummy
 scoreboard players add count spawnPiglinOp 0
 
+# Scoreboard for Spawn Mobs In Mooshroom Island
+scoreboard objectives add spawnMobsInMooshroomIsland dummy
+scoreboard players add count spawnMobsInMooshroomIsland 0
+
 #Triger Restart Spawns
 scoreboard objectives add restartSpawns trigger
 
