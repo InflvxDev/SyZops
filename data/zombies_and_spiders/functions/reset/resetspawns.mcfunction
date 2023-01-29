@@ -8,6 +8,9 @@ scoreboard players reset count spawnDrownedOp
 scoreboard players reset count spawnStrayOp
 scoreboard players reset count spawnWitherSkeletonOp
 scoreboard players reset count spawnZombiePinglinOp
+scoreboard players reset count spawnEndermanOp
+scoreboard players reset count spawnGuardianOp
+scoreboard players reset count spawnElderGuardianOp
 scoreboard players reset count spawnMobsInMooshroomIsland
 
 

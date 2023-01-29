@@ -46,6 +46,18 @@ scoreboard players add count spawnHoglinOp 0
 scoreboard objectives add spawnPiglinOp dummy
 scoreboard players add count spawnPiglinOp 0
 
+# Scoreboard for Enderman Op
+scoreboard objectives add spawnEndermanOp dummy
+scoreboard players add count spawnEndermanOp 0
+
+# Scoreboard for Guardian Op
+scoreboard objectives add spawnGuardianOp dummy
+scoreboard players add count spawnGuardianOp 0
+
+# Scoreboard for Elder Guardian Op
+scoreboard objectives add spawnElderGuardianOp dummy
+scoreboard players add count spawnElderGuardianOp 0
+
 # Scoreboard for Spawn Mobs In Mooshroom Island
 scoreboard objectives add spawnMobsInMooshroomIsland dummy
 scoreboard players add count spawnMobsInMooshroomIsland 0
@@ -53,7 +65,7 @@ scoreboard players add count spawnMobsInMooshroomIsland 0
 #Triger Restart Spawns
 scoreboard objectives add restartSpawns trigger
 
-tellraw @a {"text": "Zombies and Spiders Ops By Inflvx" , "color": "aqua"}
+tellraw @a {"text": "Mobs OverPowers Spawn By Inflvx" , "color": "aqua"}
 
 
 
