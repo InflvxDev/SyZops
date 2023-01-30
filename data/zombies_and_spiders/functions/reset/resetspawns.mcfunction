@@ -11,7 +11,11 @@ scoreboard players reset count spawnZombiePinglinOp
 scoreboard players reset count spawnEndermanOp
 scoreboard players reset count spawnGuardianOp
 scoreboard players reset count spawnElderGuardianOp
+scoreboard players reset count spawnGiantSlimeOp
+scoreboard players reset count spawnGiantMagmaCubeOp
+scoreboard players reset count spawnGiantPhantomOp
 scoreboard players reset count spawnMobsInMooshroomIsland
+
 
 
 tellraw @s {"text": "Los spawns de los Mobs han sido reiniciados" , "color": "green"}
