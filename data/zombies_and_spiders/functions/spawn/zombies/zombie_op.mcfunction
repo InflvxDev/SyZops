@@ -29,7 +29,6 @@ execute if score count spawnZombieOp matches 3 run effect give @e[tag=fasterZomb
 execute if score count spawnZombieOp matches 4 run effect give @e[tag=finalZombie] minecraft:strength 36000 8
 execute if score count spawnZombieOp matches 4 run effect give @e[tag=finalZombie] minecraft:resistance 36000 3
 execute if score count spawnZombieOp matches 4 run effect give @e[tag=finalZombie] minecraft:regeneration 36000 1
-execute if score count spawnZombieOp matches 4 run effect give @e[tag=finalZombie] minecraft:glowing 36000 1
 execute if score count spawnZombieOp matches 4 run effect give @e[tag=finalZombie] minecraft:speed 36000 5
 
 # Netherite  Zombie Monster
