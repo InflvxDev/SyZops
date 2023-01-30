@@ -58,6 +58,18 @@ scoreboard players add count spawnGuardianOp 0
 scoreboard objectives add spawnElderGuardianOp dummy
 scoreboard players add count spawnElderGuardianOp 0
 
+# Scoreboard for Giant Slime Op
+scoreboard objectives add spawnGiantSlimeOp dummy
+scoreboard players add count spawnGiantSlimeOp 0
+
+# Scoreboard for Giant Magma Cube Op
+scoreboard objectives add spawnGiantMagmaCubeOp dummy
+scoreboard players add count spawnGiantMagmaCubeOp 0
+
+# Scoreboard for Giant Phantom Op
+scoreboard objectives add spawnGiantPhantomOp dummy
+scoreboard players add count spawnGiantPhantomOp 0
+
 # Scoreboard for Spawn Mobs In Mooshroom Island
 scoreboard objectives add spawnMobsInMooshroomIsland dummy
 scoreboard players add count spawnMobsInMooshroomIsland 0

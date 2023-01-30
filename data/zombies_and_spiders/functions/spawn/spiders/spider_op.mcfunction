@@ -27,7 +27,6 @@ execute if score count spawnSpiderOp matches 3 run effect give @e[tag=jumper] mi
 # Final Spider Monster
 execute if score count spawnSpiderOp matches 4 run effect give @e[tag=final] minecraft:strength 36000 8
 execute if score count spawnSpiderOp matches 4 run effect give @e[tag=final] minecraft:resistance 36000 3
-execute if score count spawnSpiderOp matches 4 run effect give @e[tag=final] minecraft:glowing 36000 1
 execute if score count spawnSpiderOp matches 4 run effect give @e[tag=final] minecraft:speed 36000 6
 
 execute if score count spawnSpiderOp matches 4 run scoreboard players set count spawnSpiderOp 0

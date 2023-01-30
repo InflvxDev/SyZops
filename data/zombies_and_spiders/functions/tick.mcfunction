@@ -45,6 +45,15 @@ execute as @e[type=squid,tag=!not_op,sort=random] at @s run function zombies_and
 # Elder Guardian Op Spawning
 execute as @e[type=glow_squid,tag=!not_op,sort=random] at @s run function zombies_and_spiders:spawn/guardians/elderguardian_op
 
+# Giant Slime Op Spawning
+execute as @e[type=slime,nbt={Size:3},tag=!not_op,sort=random] at @s run function zombies_and_spiders:spawn/slimes/giant_slime_op
+
+# Giant Magma Cube Op Spawning
+execute as @e[type=magma_cube,nbt={Size:3},tag=!not_op,sort=random] at @s run function zombies_and_spiders:spawn/slimes/giant_magma_cube_op
+
+# Giant Phantom Op Spawning
+execute as @e[type=phantom,tag=!not_op,sort=random] at @s run function zombies_and_spiders:spawn/void/giant_phantom_op
+
 # Spawn in Mooshrooms Island
 execute as @e[type=mooshroom,tag=!not_op,sort=random] at @s run function zombies_and_spiders:spawn/others/mooshroom_island
 
