@@ -9,7 +9,7 @@ tag @s add not_op
 
 scoreboard players add count spawnSpiderOp 1
 # Fast Spider Monster
-execute if score count spawnSpiderOp matches 1 run effect give @e[tag=faster] minecraft:speed 36000 10
+execute if score count spawnSpiderOp matches 1 run effect give @e[tag=faster] minecraft:speed 36000 4
 execute if score count spawnSpiderOp matches 1 run effect give @e[tag=faster] minecraft:strength 36000 3
 execute if score count spawnSpiderOp matches 1 run effect give @e[tag=faster] minecraft:regeneration 36000 1
 execute if score count spawnSpiderOp matches 1 run effect give @e[tag=faster] minecraft:resistance 36000 2
@@ -20,7 +20,7 @@ execute if score count spawnSpiderOp matches 2 run effect give @e[tag=strongest]
 
 # Jumper Spider Monster
 execute if score count spawnSpiderOp matches 3 run effect give @e[tag=jumper] minecraft:jump_boost 36000 10
-execute if score count spawnSpiderOp matches 3 run effect give @e[tag=jumper] minecraft:speed 36000 3
+execute if score count spawnSpiderOp matches 3 run effect give @e[tag=jumper] minecraft:speed 36000 1
 execute if score count spawnSpiderOp matches 3 run effect give @e[tag=jumper] minecraft:resistance 36000 3
 execute if score count spawnSpiderOp matches 3 run effect give @e[tag=jumper] minecraft:strength 36000 4
 
@@ -28,6 +28,6 @@ execute if score count spawnSpiderOp matches 3 run effect give @e[tag=jumper] mi
 execute if score count spawnSpiderOp matches 4 run effect give @e[tag=final] minecraft:strength 36000 8
 execute if score count spawnSpiderOp matches 4 run effect give @e[tag=final] minecraft:resistance 36000 3
 execute if score count spawnSpiderOp matches 4 run effect give @e[tag=final] minecraft:glowing 36000 1
-execute if score count spawnSpiderOp matches 4 run effect give @e[tag=final] minecraft:speed 36000 6
+execute if score count spawnSpiderOp matches 4 run effect give @e[tag=final] minecraft:speed 36000 2
 
 execute if score count spawnSpiderOp matches 4 run scoreboard players set count spawnSpiderOp 0
