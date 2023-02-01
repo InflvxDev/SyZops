@@ -12,7 +12,7 @@ tag @s add not_op
 scoreboard players add count spawnZombieOp 1
 
 # Faster Zombie Monster
-execute if score count spawnZombieOp matches 1 run effect give @e[tag=fasterZombie] minecraft:speed 36000 10
+execute if score count spawnZombieOp matches 1 run effect give @e[tag=fasterZombie] minecraft:speed 36000 4
 execute if score count spawnZombieOp matches 1 run effect give @e[tag=fasterZombie] minecraft:strength 36000 4
 execute if score count spawnZombieOp matches 1 run effect give @e[tag=fasterZombie] minecraft:resistance 36000 1
 
@@ -22,14 +22,14 @@ execute if score count spawnZombieOp matches 2 run effect give @e[tag=strongestZ
 
 # Resistant Zombie Monster
 execute if score count spawnZombieOp matches 3 run effect give @e[tag=resistantZombie] minecraft:resistance 36000 3
-execute if score count spawnZombieOp matches 3 run effect give @e[tag=resistantZombie] minecraft:speed 36000 3
+execute if score count spawnZombieOp matches 3 run effect give @e[tag=resistantZombie] minecraft:speed 36000 2
 execute if score count spawnZombieOp matches 3 run effect give @e[tag=fasterZombie] minecraft:strength 36000 6
 
 # Final Zombie Monster
 execute if score count spawnZombieOp matches 4 run effect give @e[tag=finalZombie] minecraft:strength 36000 8
 execute if score count spawnZombieOp matches 4 run effect give @e[tag=finalZombie] minecraft:resistance 36000 3
 execute if score count spawnZombieOp matches 4 run effect give @e[tag=finalZombie] minecraft:regeneration 36000 1
-execute if score count spawnZombieOp matches 4 run effect give @e[tag=finalZombie] minecraft:speed 36000 5
+execute if score count spawnZombieOp matches 4 run effect give @e[tag=finalZombie] minecraft:speed 36000 2
 
 # Netherite  Zombie Monster
 execute if score count spawnZombieOp matches 5 run effect give @e[tag=netheriteZombie] minecraft:strength 36000 4
